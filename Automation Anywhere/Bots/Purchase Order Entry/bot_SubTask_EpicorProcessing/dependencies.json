@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\Purchase Order Entry\\SubTask_EpicorProcessing","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\Purchase Order Entry\\SubTask_EpicorProcessing","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Purchase Order Entry\\My Scripts\\ScriptShipVia1.vbs"]}
