@@ -57,12 +57,19 @@ For i = 1 to MailItems.Count
 		for each email in vValidEmailAddressList
 			if InStr(vSenderEmailAddress,email) <> 0 Then
 				vTimeReceived = MailItems.Item(i).ReceivedTime
-				vTimeStamp    = Year(Now)                  & _ 
-								Right("0" & Month(Now),2)  & _ 
-								Right("0" & Day(Now),2)    & _ 
-								Right("0" & Hour(Now),2)   & _ 
-								Right("0" & Minute(Now),2) & _
-								Right("0" & Second(Now),2)
+				vTimeStamp    = Year(vTimeReceived)                  & _ 
+								Right("0" & Month(vTimeReceived),2)  & _ 
+								Right("0" & Day(vTimeReceived),2)    & _ 
+								Right("0" & Hour(vTimeReceived),2)   & _ 
+								Right("0" & Minute(vTimeReceived),2) & _
+								Right("0" & Second(vTimeReceived),2) & _
+								& "_"                                &_
+								Year(Now)                            & _ 
+								Right("0" & Month(Now),2)            & _ 
+								Right("0" & Day(Now),2)              & _ 
+								Right("0" & Hour(Now),2)             & _ 
+								Right("0" & Minute(Now),2)           & _
+								Right("0" & Second(Now),2)           & _
 				vNewFolderName = vSavefolder + "\" + vTimeStamp
 				If NOT (fso.FolderExists(vNewFolderName)) Then
 					fso.CreateFolder(vNewFolderName)
