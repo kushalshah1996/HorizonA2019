@@ -41,7 +41,7 @@ Set vInboxFolder    = olns.GetDefaultFolder(6) ' here it selects the inbox folde
 set MailItems       = vInboxFolder.Items
 '==Loop through emails of Bot Email ID ONLY Begins==	
 
-For i = 1 To MailItems.Count  
+For i = 1 to MailItems.Count
 	If MailItems.Item(i).Unread = true then
 		vSubject = Trim(Ucase(MailItems.Item(i).Subject))
 		If MailItems.Item(i).SenderEmailType = "SMTP" Then
