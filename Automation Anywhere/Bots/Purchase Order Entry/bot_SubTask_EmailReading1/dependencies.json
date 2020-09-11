@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\Purchase Order Entry\\SubTask_EmailReading1","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\Purchase Order Entry\\SubTask_EmailReading1","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Purchase Order Entry\\My Scripts\\ScriptWordtoPDF.vbs"]}
