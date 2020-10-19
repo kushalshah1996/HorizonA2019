@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\MasterTask_ETA_Report","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\MasterTask_ETA_Report","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\SubTask_ReadFileOriginal_version2"]}
