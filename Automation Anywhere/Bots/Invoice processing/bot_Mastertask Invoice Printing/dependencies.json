@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\Invoice processing\\Mastertask Invoice Printing","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Invoice processing\\Invoice printing process1"]}
+{"path":"Automation Anywhere\\Bots\\Invoice processing\\Mastertask Invoice Printing","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Invoice processing\\SubTask Invoice Processing","Automation Anywhere\\Bots\\Process3\\Invoice printing process copy(1)"]}

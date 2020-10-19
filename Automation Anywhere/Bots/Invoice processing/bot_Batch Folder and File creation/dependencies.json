@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\Invoice processing\\Batch Folder and File creation","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\Invoice processing\\Batch Folder and File creation","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Invoice processing\\SubTask Invoice Processing"]}
