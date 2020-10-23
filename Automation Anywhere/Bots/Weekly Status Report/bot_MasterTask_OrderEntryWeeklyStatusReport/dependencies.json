@@ -1,0 +1,1 @@
+{"path":"Automation Anywhere\\Bots\\Weekly Status Report\\MasterTask_OrderEntryWeeklyStatusReport","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\Weekly Status Report\\My Scripts\\ScriptSystemVariable.vbs","Automation Anywhere\\Bots\\Weekly Status Report\\Database Driver File\\mssql-jdbc-8.4.1.jre8.jar"]}
